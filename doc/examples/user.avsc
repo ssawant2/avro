@@ -1,9 +1,14 @@
+{ "name" : "User",
+   "type" : "record",
+   "fields":[
+{ "name" : "myInter",
+   "type":
+
 {"namespace": "example.avro",
- "type": "record",
- "name": "User",
- "fields": [
-     {"name": "name", "type": "string"},
-     {"name": "favorite_number",  "type": ["int", "null"]},
-     {"name": "favorite_color", "type": ["string", "null"]}
+ "type": "enum",
+ "name": "myEnum",
+ "symbols": ["S1","S2","S3"] }
+}
  ]
+
 }
